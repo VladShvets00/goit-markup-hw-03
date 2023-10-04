@@ -81,7 +81,11 @@ a {
 Section header
 ===============
  */
-.logo {
+ .header{
+  border-bottom: #ECECEC solid 1px;
+ }
+
+ .logo {
   margin-right: 93px;
 }
 
@@ -101,6 +105,12 @@ Section header
 .navigation-item {
   margin-right: 50px;
 }
+.navigation-link{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .navigation-item:last-of-type {
   margin-right: 0px;
 }
@@ -173,14 +183,14 @@ HERO
   background-color: var(--dark-bg-cl);
 }
 
-.hero-container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
 }
 
+
 .hero-title {
-  display: block;
+  width: 696px;
   font-family: var(--main-font);
   color: var(--title-txt-cl);
   text-align: center;
@@ -189,6 +199,7 @@ HERO
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin: auto;
   margin-bottom: 30px;
 }
 .hero-btn {
@@ -212,7 +223,12 @@ HERO
 секція про нас
 ===============
  */
-.about-list {
+.about{
+  margin-top: 94px;
+  margin-bottom: 94px; 
+}
+
+ .about-list {
   display: flex;
   align-items: center;
 }
@@ -224,16 +240,15 @@ HERO
   letter-spacing: 0.42px;
   text-transform: uppercase;
   /* justify-content: center; */
+  margin-bottom: 10px;
 }
 .about-item {
   display: block;
   margin-right: 30px;
   width: 270px;
-  height: 98px;
+
 }
-.about-container {
-  margin-bottom: 94px;
-}
+
 
 .about-item:last-child {
   margin-right: 0;
@@ -243,8 +258,8 @@ HERO
 Features
 ===============
  */
-.features-container {
-  margin-bottom: 94px;
+.features {
+  padding-bottom: 94px;
 }
 .features-list {
   display: flex;
@@ -274,17 +289,26 @@ Features
 Team
 ===============
  */
-.team-title {
+ .team{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+ .team-title {
   color: var(--secondary-txt-cl);
   text-align: center;
   font-family: var(--main-font);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
+  margin-bottom: 50px;
 }
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.member-about{
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+.member-title{
+  margin-bottom: 10px;
 }
 
 .member-list {
@@ -304,7 +328,7 @@ Footer
 ===============
  */
 
-.footer-container {
+.footer{
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -408,6 +432,13 @@ Footer
   letter-spacing: 0.42px;
   line-height: 1.14;
   font-style: normal;
+}
+
+.address-list{
+  margin-top: 12px;
+}
+.address-item{
+  margin-bottom: 12px;
 }
 
 /* 
