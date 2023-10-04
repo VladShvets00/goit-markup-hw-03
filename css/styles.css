@@ -454,6 +454,7 @@ Portfolio section
 .gallery-item {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eee;
 }
 .gallery-item:nth-child(3n) {
   margin-right: 0;
