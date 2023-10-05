@@ -38,7 +38,7 @@
             </li>
             <li class="item navigation-item">
               <a
-                class="link navigation-link"
+                class="link navigation-link active-link"
                 href="./portfolio.html"
                 >Портфоліо</a
               >
@@ -52,7 +52,7 @@
         <ul class="list contact-list">
           <li class="item contact-item">
             <a
-              class="link contact-link active-link"
+              class="link contact-link"
               href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
@@ -67,8 +67,9 @@
     </header>
     <main class="main">
       <!-- Portfolio -->
-      <div class="container">
+      
         <section class="section-portfolio">
+          <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
 
           <ul class="filter-list list">
@@ -100,8 +101,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Технокряк</h2>
-                <p class="gallery-text">Веб-сайт</p>
+             <div class="gallery-about">
+              <h2 class="gallery-title">Технокряк</h2>
+              <p class="gallery-text">Веб-сайт</p>
+             </div>
               </a>
             </li>
 
@@ -114,8 +117,10 @@
                   width="370"
                   height="294"
                 />
+              <div class="gallery-about">
                 <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
                 <p class="gallery-text">Дизайн</p>
+              </div>
               </a>
             </li>
 
@@ -128,8 +133,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Ресторан Seafood</h2>
-                <p class="gallery-text">Додаток</p>
+                <div class="gallery-about">
+                  <h2 class="gallery-title">Ресторан Seafood</h2>
+                  <p class="gallery-text">Додаток</p>
+                </div>
               </a>
             </li>
 
@@ -142,8 +149,10 @@
                   width="370"
                   height="294"
                 />
+               <div class="gallery-about">
                 <h2 class="gallery-title">Проєкт Prime</h2>
                 <p class="gallery-text">Маркетинг</p>
+               </div>
               </a>
             </li>
 
@@ -156,8 +165,10 @@
                   width="370"
                   height="294"
                 />
+              <div class="gallery-about">
                 <h2 class="gallery-title">Проєкт Boxes</h2>
                 <p class="gallery-text">Додаток</p>
+              </div>
               </a>
             </li>
 
@@ -170,8 +181,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Inspiration has no Borders</h2>
-                <p class="gallery-text">Веб-сайт</p>
+                <div class="gallery-about">
+                  <h2 class="gallery-title">Inspiration has no Borders</h2>
+                  <p class="gallery-text">Веб-сайт</p>
+                </div>
               </a>
             </li>
 
@@ -184,8 +197,11 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Видання Limited Edition</h2>
-                <p class="gallery-text">Дизайн</p>
+                <div class="gallery-about">
+
+                  <h2 class="gallery-title">Видання Limited Edition</h2>
+                  <p class="gallery-text">Дизайн</p>
+                </div>
               </a>
             </li>
 
@@ -198,8 +214,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Проєкт LAB</h2>
+                <div class="gallery-about">
+                  <h2 class="gallery-title">Проєкт LAB</h2>
                 <p class="gallery-text">Маркетинг</p>
+                </div>
               </a>
             </li>
 
@@ -212,36 +230,33 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="gallery-title">Growing Business</h2>
+                <div class="gallery-about">
+                  <h2 class="gallery-title">Growing Business</h2>
                 <p class="gallery-text">Додаток</p>
+                </div>
               </a>
             </li>
           </ul>
+         </div>
         </section>
-      </div>
+      
     </main>
 
     <!-- Підвал сайту -->
     <footer class="footer">
-      <div class="container">
-        <a class="link logo" href="index.html"
-          >Web<span class="logo-text-white">Studio</span></a
-        >
-        <address class="address">
-          <span class="main-address">м. Київ, пр-т Лесі Українки, 26</span>
-          <ul class="list">
-            <li class="item">
-              <a class="link address-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a class="link address-link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+      <div class="container footer-container">
+        <a class="link logo footer-logo" href="index.html">Web<span class="logo-text-white">Studio</span></a>
+      <address class="address">
+        <p class="main-address">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="list address-list">
+          <li class="item address-item">
+            <a class="link address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a class="link address-link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
       </div>
     </footer>
   </body>

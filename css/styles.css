@@ -224,8 +224,8 @@ HERO
 ===============
  */
 .about{
-  margin-top: 94px;
-  margin-bottom: 94px; 
+  padding-top: 94px;
+  padding-bottom: 94px; 
 }
 
  .about-list {
@@ -317,6 +317,8 @@ Team
 }
 .member-item {
   margin-right: 30px;
+  /* border-radius: 0px 0px 4px 4px;
+  background: var(--main-bg-cl); */
 }
 .member-item:last-child {
   margin-right: 0;
@@ -446,8 +448,9 @@ Footer
 Portfolio section
 ===============
  */
-.header-portfolio {
-  margin-bottom: 94px;
+.section-portfolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-list {
@@ -468,6 +471,7 @@ Portfolio section
   background-color: #f5f4fa;
   border-radius: 4px;
   border: none;
+  padding: 6px 22px;
 }
 .filter-item {
   margin-right: 8px;
@@ -479,12 +483,23 @@ Portfolio section
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
   /* justify-content: space-between; */
 }
 .gallery-item {
   margin-right: 30px;
   margin-bottom: 30px;
+ 
+}
+.gallery-title{
+  margin-bottom: 4px;
+}
+.gallery-about{
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
 .gallery-item:nth-child(3n) {
